@@ -9,6 +9,16 @@ Begin VB.Form login
    ScaleHeight     =   7380
    ScaleWidth      =   13275
    StartUpPosition =   3  'Windows Default
+   Begin VB.PictureBox Picture1 
+      BackColor       =   &H80000007&
+      Height          =   2895
+      Left            =   4080
+      ScaleHeight     =   2835
+      ScaleWidth      =   3075
+      TabIndex        =   1
+      Top             =   2040
+      Width           =   3135
+   End
    Begin VB.Label Label1 
       Caption         =   "Login"
       Height          =   375
