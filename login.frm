@@ -1,35 +1,83 @@
 VERSION 5.00
-Begin VB.Form login 
-   Caption         =   "Form1"
-   ClientHeight    =   7380
-   ClientLeft      =   225
-   ClientTop       =   -2970
-   ClientWidth     =   13275
+Begin VB.Form Form1 
+   Caption         =   "c"
+   ClientHeight    =   4875
+   ClientLeft      =   120
+   ClientTop       =   465
+   ClientWidth     =   5685
    LinkTopic       =   "Form1"
-   ScaleHeight     =   7380
-   ScaleWidth      =   13275
+   ScaleHeight     =   4875
+   ScaleWidth      =   5685
    StartUpPosition =   3  'Windows Default
-   Begin VB.PictureBox Picture1 
-      BackColor       =   &H80000007&
-      Height          =   2895
-      Left            =   4080
-      ScaleHeight     =   2835
-      ScaleWidth      =   3075
-      TabIndex        =   1
-      Top             =   2040
-      Width           =   3135
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Login"
-      Height          =   375
-      Left            =   5160
-      TabIndex        =   0
-      Top             =   480
+   Begin VB.CommandButton Command3 
+      Caption         =   "Cancelar"
+      Height          =   495
+      Left            =   2760
+      TabIndex        =   6
+      Top             =   3360
       Width           =   975
    End
+   Begin VB.CommandButton Command1 
+      Caption         =   "Iniciar"
+      Height          =   495
+      Left            =   720
+      TabIndex        =   5
+      Top             =   3360
+      Width           =   975
+   End
+   Begin VB.TextBox Text2 
+      Height          =   375
+      Left            =   240
+      TabIndex        =   4
+      Text            =   "ejemplos"
+      Top             =   2520
+      Width           =   4215
+   End
+   Begin VB.TextBox Text1 
+      Height          =   375
+      Left            =   240
+      TabIndex        =   1
+      Text            =   "ejemplo@gmail.com"
+      Top             =   960
+      Width           =   4215
+   End
+   Begin VB.Label Label3 
+      Caption         =   "Contraseña"
+      Height          =   255
+      Left            =   360
+      TabIndex        =   3
+      Top             =   1800
+      Width           =   1935
+   End
+   Begin VB.Label Label2 
+      Height          =   15
+      Left            =   240
+      TabIndex        =   2
+      Top             =   1800
+      Width           =   1575
+   End
+   Begin VB.Label Label1 
+      Caption         =   "Correo"
+      Height          =   255
+      Left            =   360
+      TabIndex        =   0
+      Top             =   480
+      Width           =   1935
+   End
 End
-Attribute VB_Name = "login"
+Attribute VB_Name = "Form1"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Command1_Click()
+
+End Sub
+
+Private Sub Command3_Click()
+
+End Sub
+
+Private Sub Label1_Click()
+
+End Sub
