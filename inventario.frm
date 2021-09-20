@@ -10,6 +10,14 @@ Begin VB.Form inventario
    ScaleHeight     =   5340
    ScaleWidth      =   7020
    StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command8 
+      Caption         =   "NUEVO"
+      Height          =   375
+      Left            =   2760
+      TabIndex        =   31
+      Top             =   4920
+      Width           =   1815
+   End
    Begin VB.CommandButton Command1 
       Caption         =   "Buscar"
       Height          =   375
@@ -29,9 +37,9 @@ Begin VB.Form inventario
    Begin VB.Frame Frame1 
       Caption         =   "Resultados"
       Height          =   3375
-      Left            =   360
+      Left            =   480
       TabIndex        =   3
-      Top             =   1440
+      Top             =   1320
       Width           =   6255
       Begin VB.CommandButton Command7 
          Caption         =   "Editar"
@@ -291,3 +299,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Command8_Click()
+Me.Hide
+
+End Sub
