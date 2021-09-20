@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form Form1 
+Begin VB.Form login 
    Caption         =   "c"
    ClientHeight    =   4875
    ClientLeft      =   120
@@ -65,7 +65,7 @@ Begin VB.Form Form1
       Width           =   1935
    End
 End
-Attribute VB_Name = "Form1"
+Attribute VB_Name = "login"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
