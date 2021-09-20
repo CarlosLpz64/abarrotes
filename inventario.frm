@@ -1,5 +1,6 @@
 VERSION 5.00
 Begin VB.Form inventario 
+   BackColor       =   &H00FFC0C0&
    Caption         =   "Inventario"
    ClientHeight    =   5340
    ClientLeft      =   120
