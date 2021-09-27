@@ -6,8 +6,9 @@ Begin VB.Form login
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   7560
+   Icon            =   "login.frx":0000
    LinkTopic       =   "Form1"
-   Picture         =   "login.frx":0000
+   Picture         =   "login.frx":10CA
    ScaleHeight     =   5415
    ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default

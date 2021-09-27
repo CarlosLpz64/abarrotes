@@ -6,8 +6,9 @@ Begin VB.Form agregar_articulos
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   7560
+   Icon            =   "agregar_articulos.frx":0000
    LinkTopic       =   "Form1"
-   Picture         =   "agregar_articulos.frx":0000
+   Picture         =   "agregar_articulos.frx":10CA
    ScaleHeight     =   5415
    ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default

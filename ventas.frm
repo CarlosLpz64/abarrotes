@@ -6,8 +6,9 @@ Begin VB.Form ventas
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   7560
+   Icon            =   "ventas.frx":0000
    LinkTopic       =   "Form1"
-   Picture         =   "ventas.frx":0000
+   Picture         =   "ventas.frx":10CA
    ScaleHeight     =   5415
    ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default
