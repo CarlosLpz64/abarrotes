@@ -1,17 +1,27 @@
 VERSION 5.00
 Begin VB.Form ventas 
-   BackColor       =   &H00FFC0C0&
+   BackColor       =   &H00C0C000&
    Caption         =   "ventas"
-   ClientHeight    =   5340
+   ClientHeight    =   5415
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   7020
+   ClientWidth     =   7560
    LinkTopic       =   "Form1"
-   ScaleHeight     =   5340
-   ScaleWidth      =   7020
+   Picture         =   "ventas.frx":0000
+   ScaleHeight     =   5415
+   ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command4 
-      Caption         =   "INVENTARIO F5"
+      Caption         =   "INVENTARIO"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   255
       Left            =   5280
       TabIndex        =   15
@@ -20,6 +30,15 @@ Begin VB.Form ventas
    End
    Begin VB.CommandButton Command3 
       Caption         =   "AGREGAR"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   1560
       TabIndex        =   14
@@ -35,7 +54,16 @@ Begin VB.Form ventas
       Width           =   1575
    End
    Begin VB.CommandButton Command2 
-      Caption         =   "CERRAR VENTA (F2)"
+      Caption         =   "CERRAR VENTA"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   3720
       TabIndex        =   7
@@ -43,7 +71,16 @@ Begin VB.Form ventas
       Width           =   1935
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "CANCELAR (F1)"
+      Caption         =   "CANCELAR"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   1440
       TabIndex        =   6
@@ -91,14 +128,14 @@ Begin VB.Form ventas
       Caption         =   "FECHA"
       BeginProperty Font 
          Name            =   "Times New Roman"
-         Size            =   8.25
+         Size            =   9.75
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      ForeColor       =   &H80000017&
+      ForeColor       =   &H00FFFFFF&
       Height          =   255
       Index           =   4
       Left            =   4080
@@ -113,14 +150,14 @@ Begin VB.Form ventas
       Caption         =   "TOTAL"
       BeginProperty Font 
          Name            =   "Times New Roman"
-         Size            =   8.25
+         Size            =   9.75
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      ForeColor       =   &H80000017&
+      ForeColor       =   &H00FFFFFF&
       Height          =   375
       Index           =   3
       Left            =   360
@@ -134,15 +171,15 @@ Begin VB.Form ventas
       BackStyle       =   0  'Transparent
       Caption         =   "SUBTOTAL"
       BeginProperty Font 
-         Name            =   "Times New Roman"
-         Size            =   8.25
+         Name            =   "Tahoma"
+         Size            =   9.75
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      ForeColor       =   &H80000017&
+      ForeColor       =   &H00FFFFFF&
       Height          =   375
       Index           =   2
       Left            =   240
@@ -157,20 +194,20 @@ Begin VB.Form ventas
       Caption         =   "PRODUCTO"
       BeginProperty Font 
          Name            =   "Times New Roman"
-         Size            =   8.25
+         Size            =   9.75
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      ForeColor       =   &H80000017&
+      ForeColor       =   &H00FFFFFF&
       Height          =   375
       Index           =   1
-      Left            =   360
+      Left            =   120
       TabIndex        =   10
       Top             =   840
-      Width           =   975
+      Width           =   1215
    End
    Begin VB.Label Label2 
       Caption         =   "Label2"
@@ -194,6 +231,7 @@ Begin VB.Form ventas
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+      ForeColor       =   &H00FFFFFF&
       Height          =   375
       Left            =   120
       TabIndex        =   2

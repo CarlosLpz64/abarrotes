@@ -1,25 +1,46 @@
 VERSION 5.00
 Begin VB.Form inventario 
-   BackColor       =   &H00FFC0C0&
+   BackColor       =   &H8000000D&
    Caption         =   "Inventario"
-   ClientHeight    =   5340
+   ClientHeight    =   5415
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   7020
+   ClientWidth     =   7560
+   Icon            =   "inventario.frx":0000
    LinkTopic       =   "Form2"
-   ScaleHeight     =   5340
-   ScaleWidth      =   7020
+   Picture         =   "inventario.frx":10CA
+   ScaleHeight     =   5415
+   ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command8 
       Caption         =   "NUEVO"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   2760
+      MouseIcon       =   "inventario.frx":A079
       TabIndex        =   31
-      Top             =   4920
+      Top             =   4800
       Width           =   1815
    End
    Begin VB.CommandButton Command1 
       Caption         =   "Buscar"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   5640
       TabIndex        =   2
@@ -37,12 +58,21 @@ Begin VB.Form inventario
    Begin VB.Frame Frame1 
       Caption         =   "Resultados"
       Height          =   3375
-      Left            =   480
+      Left            =   240
       TabIndex        =   3
       Top             =   1320
-      Width           =   6255
+      Width           =   6495
       Begin VB.CommandButton Command7 
          Caption         =   "Editar"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   5160
          TabIndex        =   30
@@ -51,6 +81,15 @@ Begin VB.Form inventario
       End
       Begin VB.CommandButton Command6 
          Caption         =   "Editar"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   5160
          TabIndex        =   24
@@ -59,6 +98,15 @@ Begin VB.Form inventario
       End
       Begin VB.CommandButton Command5 
          Caption         =   "Editar"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   5160
          TabIndex        =   22
@@ -67,6 +115,15 @@ Begin VB.Form inventario
       End
       Begin VB.CommandButton Command4 
          Caption         =   "Editar"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   5160
          TabIndex        =   16
@@ -75,6 +132,15 @@ Begin VB.Form inventario
       End
       Begin VB.CommandButton Command3 
          Caption         =   "Editar"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   5160
          TabIndex        =   14
@@ -83,6 +149,15 @@ Begin VB.Form inventario
       End
       Begin VB.CommandButton Command2 
          Caption         =   "Editar"
+         BeginProperty Font 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Height          =   255
          Left            =   5160
          TabIndex        =   5
@@ -277,16 +352,18 @@ Begin VB.Form inventario
       End
    End
    Begin VB.Label Label1 
+      BackStyle       =   0  'Transparent
       Caption         =   "INVENTARIO"
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Yu Gothic"
          Size            =   17.25
          Charset         =   0
-         Weight          =   400
+         Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+      ForeColor       =   &H00FFFFFF&
       Height          =   495
       Left            =   2520
       TabIndex        =   0

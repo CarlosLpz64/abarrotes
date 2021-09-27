@@ -1,46 +1,21 @@
 VERSION 5.00
 Begin VB.Form login 
-   BackColor       =   &H00FFC0C0&
+   BackColor       =   &H00C0C000&
    Caption         =   "login"
-   ClientHeight    =   5340
+   ClientHeight    =   5415
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   7020
+   ClientWidth     =   7560
    LinkTopic       =   "Form1"
-   ScaleHeight     =   5340
-   ScaleWidth      =   7020
+   Picture         =   "login.frx":0000
+   ScaleHeight     =   5415
+   ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command1 
       Caption         =   "Iniciar"
-      Height          =   495
-      Left            =   2880
-      TabIndex        =   5
-      Top             =   3120
-      Width           =   975
-   End
-   Begin VB.TextBox Text2 
-      Height          =   375
-      IMEMode         =   3  'DISABLE
-      Left            =   1200
-      PasswordChar    =   "*"
-      TabIndex        =   4
-      Text            =   "ejemplos"
-      Top             =   2400
-      Width           =   4215
-   End
-   Begin VB.TextBox Text1 
-      Height          =   375
-      Left            =   1200
-      TabIndex        =   1
-      Text            =   "ejemplo@gmail.com"
-      Top             =   1440
-      Width           =   4215
-   End
-   Begin VB.Label Label4 
-      Caption         =   "Iniciar sesión"
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
-         Size            =   18
+         Name            =   "Verdana"
+         Size            =   12
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -48,34 +23,94 @@ Begin VB.Form login
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   2520
+      Left            =   3480
+      TabIndex        =   5
+      Top             =   3720
+      Width           =   1215
+   End
+   Begin VB.TextBox Text2 
+      Height          =   375
+      IMEMode         =   3  'DISABLE
+      Left            =   1800
+      PasswordChar    =   "*"
+      TabIndex        =   4
+      Text            =   "ejemplos"
+      Top             =   3000
+      Width           =   4215
+   End
+   Begin VB.TextBox Text1 
+      Height          =   375
+      Left            =   1800
+      TabIndex        =   1
+      Text            =   "ejemplo@gmail.com"
+      Top             =   2040
+      Width           =   4215
+   End
+   Begin VB.Label Label4 
+      Alignment       =   2  'Center
+      BackStyle       =   0  'Transparent
+      Caption         =   "INICIAR SESIÓN"
+      BeginProperty Font 
+         Name            =   "Yu Gothic"
+         Size            =   18
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FFFFFF&
+      Height          =   495
+      Left            =   2400
       TabIndex        =   6
-      Top             =   240
-      Width           =   2175
+      Top             =   480
+      Width           =   3255
    End
    Begin VB.Label Label3 
+      Alignment       =   2  'Center
       BackStyle       =   0  'Transparent
       Caption         =   "Contraseña"
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FFFFFF&
       Height          =   255
-      Left            =   1200
+      Left            =   2880
       TabIndex        =   3
-      Top             =   2040
+      Top             =   2640
       Width           =   1935
    End
    Begin VB.Label Label2 
       Height          =   15
-      Left            =   1200
+      Left            =   1800
       TabIndex        =   2
-      Top             =   1680
+      Top             =   2280
       Width           =   1575
    End
    Begin VB.Label Label1 
+      Alignment       =   2  'Center
       BackStyle       =   0  'Transparent
       Caption         =   "Correo"
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FFFFFF&
       Height          =   255
-      Left            =   1200
+      Left            =   2880
       TabIndex        =   0
-      Top             =   1080
+      Top             =   1680
       Width           =   1935
    End
 End
@@ -89,3 +124,6 @@ ventas.Show
 Me.Hide
 End Sub
 
+Private Sub Label4_Click()
+
+End Sub
