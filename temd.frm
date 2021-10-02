@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form Form2 
+Begin VB.Form Cierre 
    BackColor       =   &H00808000&
    Caption         =   "Form2"
    ClientHeight    =   6270
@@ -208,11 +208,8 @@ Begin VB.Form Form2
       Width           =   2100
    End
 End
-Attribute VB_Name = "Form2"
+Attribute VB_Name = "Cierre"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Private Sub Label6_Click()
-
-End Sub

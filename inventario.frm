@@ -378,5 +378,6 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command8_Click()
 Me.Hide
+agregar_articulos.Show
 
 End Sub

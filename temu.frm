@@ -1,14 +1,14 @@
 VERSION 5.00
-Begin VB.Form Form1 
+Begin VB.Form Editar 
    BackColor       =   &H00808000&
    Caption         =   "Form1"
-   ClientHeight    =   6300
+   ClientHeight    =   5415
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   6960
+   ClientWidth     =   7560
    LinkTopic       =   "Form1"
-   ScaleHeight     =   6300
-   ScaleWidth      =   6960
+   ScaleHeight     =   5415
+   ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command3 
       BackColor       =   &H00FFFFFF&
@@ -23,10 +23,10 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   615
-      Left            =   4800
+      Left            =   4560
       MaskColor       =   &H00FFFFFF&
       TabIndex        =   11
-      Top             =   5400
+      Top             =   4320
       Width           =   1695
    End
    Begin VB.CommandButton Command2 
@@ -42,10 +42,10 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   615
-      Left            =   2640
+      Left            =   2520
       MaskColor       =   &H00FFFFFF&
       TabIndex        =   10
-      Top             =   5400
+      Top             =   4320
       Width           =   1815
    End
    Begin VB.CommandButton Command1 
@@ -61,35 +61,35 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   615
-      Left            =   600
+      Left            =   720
       MaskColor       =   &H00FFFFFF&
       TabIndex        =   9
-      Top             =   5400
+      Top             =   4320
       Width           =   1695
    End
    Begin VB.TextBox Text4 
-      Height          =   1335
+      Height          =   975
       Left            =   2160
       TabIndex        =   8
-      Top             =   3600
+      Top             =   2880
       Width           =   4335
    End
    Begin VB.TextBox Text3 
-      Height          =   495
+      Height          =   375
       Left            =   2160
       TabIndex        =   7
-      Top             =   2880
+      Top             =   2400
       Width           =   1695
    End
    Begin VB.TextBox Text2 
-      Height          =   615
+      Height          =   375
       Left            =   2160
       TabIndex        =   6
-      Top             =   2040
+      Top             =   1800
       Width           =   4215
    End
    Begin VB.TextBox Text1 
-      Height          =   615
+      Height          =   285
       Left            =   2160
       TabIndex        =   5
       Top             =   1200
@@ -108,9 +108,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   600
+      Left            =   360
       TabIndex        =   4
-      Top             =   3840
+      Top             =   3120
       Width           =   1815
    End
    Begin VB.Label Label4 
@@ -126,9 +126,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   600
+      Left            =   1200
       TabIndex        =   3
-      Top             =   3000
+      Top             =   2280
       Width           =   1815
    End
    Begin VB.Label Label3 
@@ -144,9 +144,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   600
+      Left            =   960
       TabIndex        =   2
-      Top             =   2160
+      Top             =   1800
       Width           =   1815
    End
    Begin VB.Label Label2 
@@ -162,9 +162,9 @@ Begin VB.Form Form1
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495
-      Left            =   600
+      Left            =   960
       TabIndex        =   1
-      Top             =   1320
+      Top             =   1200
       Width           =   1815
    End
    Begin VB.Label Label1 
@@ -188,7 +188,7 @@ Begin VB.Form Form1
       Width           =   3345
    End
 End
-Attribute VB_Name = "Form1"
+Attribute VB_Name = "Editar"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
@@ -197,6 +197,3 @@ Private Sub Data1_Validate(Action As Integer, Save As Integer)
 
 End Sub
 
-Private Sub Label2_Click()
-
-End Sub

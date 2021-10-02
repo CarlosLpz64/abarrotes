@@ -15,28 +15,28 @@ Begin VB.Form agregar_articulos
    Begin VB.TextBox Text4 
       Height          =   375
       Left            =   2280
-      TabIndex        =   12
+      TabIndex        =   11
       Top             =   2520
       Width           =   3735
    End
    Begin VB.TextBox Text3 
       Height          =   735
       Left            =   2280
-      TabIndex        =   11
+      TabIndex        =   10
       Top             =   1680
       Width           =   3735
    End
    Begin VB.TextBox Text2 
       Height          =   375
       Left            =   2280
-      TabIndex        =   10
+      TabIndex        =   9
       Top             =   1200
       Width           =   3735
    End
    Begin VB.ComboBox Combo2 
       Height          =   315
       Left            =   2280
-      TabIndex        =   9
+      TabIndex        =   8
       Text            =   "Selecciona una medida de peso"
       Top             =   3720
       Width           =   3735
@@ -44,27 +44,10 @@ Begin VB.Form agregar_articulos
    Begin VB.ComboBox Combo1 
       Height          =   315
       Left            =   2280
-      TabIndex        =   6
+      TabIndex        =   5
       Text            =   "Selecciona una categoria"
       Top             =   3120
       Width           =   3735
-   End
-   Begin VB.CommandButton Command3 
-      Caption         =   "Ver Productos Activos"
-      BeginProperty Font 
-         Name            =   "Tahoma"
-         Size            =   9.75
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   735
-      Left            =   5040
-      TabIndex        =   2
-      Top             =   4440
-      Width           =   1935
    End
    Begin VB.CommandButton Command2 
       Caption         =   "Cancelar"
@@ -78,7 +61,7 @@ Begin VB.Form agregar_articulos
          Strikethrough   =   0   'False
       EndProperty
       Height          =   735
-      Left            =   2880
+      Left            =   4200
       TabIndex        =   1
       Top             =   4440
       Width           =   1935
@@ -95,7 +78,7 @@ Begin VB.Form agregar_articulos
          Strikethrough   =   0   'False
       EndProperty
       Height          =   735
-      Left            =   840
+      Left            =   2160
       TabIndex        =   0
       Top             =   4440
       Width           =   1815
@@ -116,7 +99,7 @@ Begin VB.Form agregar_articulos
       ForeColor       =   &H00FFFFFF&
       Height          =   495
       Left            =   1080
-      TabIndex        =   13
+      TabIndex        =   12
       Top             =   240
       Width           =   5535
    End
@@ -136,7 +119,7 @@ Begin VB.Form agregar_articulos
       ForeColor       =   &H00FFFFFF&
       Height          =   735
       Left            =   480
-      TabIndex        =   8
+      TabIndex        =   7
       Top             =   3600
       Width           =   1815
    End
@@ -156,7 +139,7 @@ Begin VB.Form agregar_articulos
       ForeColor       =   &H00FFFFFF&
       Height          =   495
       Left            =   480
-      TabIndex        =   7
+      TabIndex        =   6
       Top             =   3120
       Width           =   1815
    End
@@ -176,7 +159,7 @@ Begin VB.Form agregar_articulos
       ForeColor       =   &H00FFFFFF&
       Height          =   375
       Left            =   480
-      TabIndex        =   5
+      TabIndex        =   4
       Top             =   2520
       Width           =   1815
    End
@@ -196,7 +179,7 @@ Begin VB.Form agregar_articulos
       ForeColor       =   &H00FFFFFF&
       Height          =   855
       Left            =   480
-      TabIndex        =   4
+      TabIndex        =   3
       Top             =   1680
       Width           =   1815
    End
@@ -216,7 +199,7 @@ Begin VB.Form agregar_articulos
       Height          =   375
       Index           =   0
       Left            =   480
-      TabIndex        =   3
+      TabIndex        =   2
       Top             =   1200
       Width           =   1170
    End
@@ -226,18 +209,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Private Sub Combo1_Change()
-
-End Sub
-
 Private Sub Text1_Change()
 
 End Sub
 
-Private Sub Label5_Click()
-
-End Sub
-
-Private Sub Text2_Change()
-
-End Sub
