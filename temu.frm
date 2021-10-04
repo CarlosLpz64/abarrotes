@@ -7,14 +7,15 @@ Begin VB.Form Editar
    ClientTop       =   465
    ClientWidth     =   7560
    LinkTopic       =   "Form1"
+   Picture         =   "temu.frx":0000
    ScaleHeight     =   5415
    ScaleWidth      =   7560
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command3 
       BackColor       =   &H00FFFFFF&
-      Caption         =   "Ver Productos Activos"
+      Caption         =   "Ver Productos"
       BeginProperty Font 
-         Name            =   "Arial Narrow"
+         Name            =   "Verdana"
          Size            =   12
          Charset         =   0
          Weight          =   400
@@ -33,7 +34,7 @@ Begin VB.Form Editar
       BackColor       =   &H00FFFFFF&
       Caption         =   "Cancelar"
       BeginProperty Font 
-         Name            =   "Arial Narrow"
+         Name            =   "Verdana"
          Size            =   12
          Charset         =   0
          Weight          =   400
@@ -52,7 +53,7 @@ Begin VB.Form Editar
       BackColor       =   &H00FFFFFF&
       Caption         =   "Modificar"
       BeginProperty Font 
-         Name            =   "Arial Narrow"
+         Name            =   "Verdana"
          Size            =   12
          Charset         =   0
          Weight          =   400
@@ -71,7 +72,7 @@ Begin VB.Form Editar
       Height          =   975
       Left            =   2160
       TabIndex        =   8
-      Top             =   2880
+      Top             =   3000
       Width           =   4335
    End
    Begin VB.TextBox Text3 
@@ -99,16 +100,17 @@ Begin VB.Form Editar
       BackStyle       =   0  'Transparent
       Caption         =   "Descripción:"
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
-         Size            =   12
+         Name            =   "Times New Roman"
+         Size            =   14.25
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+      ForeColor       =   &H80000014&
       Height          =   495
-      Left            =   360
+      Left            =   600
       TabIndex        =   4
       Top             =   3120
       Width           =   1815
@@ -117,16 +119,17 @@ Begin VB.Form Editar
       BackStyle       =   0  'Transparent
       Caption         =   "Precio:"
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
-         Size            =   12
+         Name            =   "Times New Roman"
+         Size            =   14.25
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+      ForeColor       =   &H80000014&
       Height          =   495
-      Left            =   1200
+      Left            =   600
       TabIndex        =   3
       Top             =   2280
       Width           =   1815
@@ -135,16 +138,17 @@ Begin VB.Form Editar
       BackStyle       =   0  'Transparent
       Caption         =   "Nombre:"
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
-         Size            =   12
+         Name            =   "Times New Roman"
+         Size            =   14.25
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+      ForeColor       =   &H80000014&
       Height          =   495
-      Left            =   960
+      Left            =   600
       TabIndex        =   2
       Top             =   1800
       Width           =   1815
@@ -153,16 +157,17 @@ Begin VB.Form Editar
       BackStyle       =   0  'Transparent
       Caption         =   "Codigo:"
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
-         Size            =   12
+         Name            =   "Times New Roman"
+         Size            =   14.25
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+      ForeColor       =   &H80000014&
       Height          =   495
-      Left            =   960
+      Left            =   600
       TabIndex        =   1
       Top             =   1200
       Width           =   1815
@@ -181,8 +186,9 @@ Begin VB.Form Editar
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+      ForeColor       =   &H80000014&
       Height          =   375
-      Left            =   1755
+      Left            =   1800
       TabIndex        =   0
       Top             =   360
       Width           =   3345
@@ -197,3 +203,6 @@ Private Sub Data1_Validate(Action As Integer, Save As Integer)
 
 End Sub
 
+Private Sub Label2_Click()
+
+End Sub

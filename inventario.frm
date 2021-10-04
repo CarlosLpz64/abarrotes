@@ -15,8 +15,8 @@ Begin VB.Form inventario
    Begin VB.CommandButton Command8 
       Caption         =   "NUEVO"
       BeginProperty Font 
-         Name            =   "Tahoma"
-         Size            =   9.75
+         Name            =   "Verdana"
+         Size            =   12
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False

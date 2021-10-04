@@ -15,7 +15,7 @@ Begin VB.Form ventas
    Begin VB.CommandButton Command4 
       Caption         =   "INVENTARIO"
       BeginProperty Font 
-         Name            =   "Tahoma"
+         Name            =   "Verdana"
          Size            =   9.75
          Charset         =   0
          Weight          =   400
@@ -32,7 +32,7 @@ Begin VB.Form ventas
    Begin VB.CommandButton Command3 
       Caption         =   "AGREGAR"
       BeginProperty Font 
-         Name            =   "Tahoma"
+         Name            =   "Verdana"
          Size            =   9.75
          Charset         =   0
          Weight          =   400
@@ -57,7 +57,7 @@ Begin VB.Form ventas
    Begin VB.CommandButton Command2 
       Caption         =   "CERRAR VENTA"
       BeginProperty Font 
-         Name            =   "Tahoma"
+         Name            =   "Verdana"
          Size            =   9.75
          Charset         =   0
          Weight          =   400
@@ -74,7 +74,7 @@ Begin VB.Form ventas
    Begin VB.CommandButton Command1 
       Caption         =   "CANCELAR"
       BeginProperty Font 
-         Name            =   "Tahoma"
+         Name            =   "Verdana"
          Size            =   9.75
          Charset         =   0
          Weight          =   400
