@@ -2,38 +2,38 @@ VERSION 5.00
 Begin VB.Form ventas 
    BackColor       =   &H00C0C000&
    Caption         =   "ventas"
-   ClientHeight    =   5415
+   ClientHeight    =   7410
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   7560
+   ClientWidth     =   9765
    Icon            =   "ventas.frx":0000
    LinkTopic       =   "Form1"
    Picture         =   "ventas.frx":10CA
-   ScaleHeight     =   5415
-   ScaleWidth      =   7560
+   ScaleHeight     =   7410
+   ScaleWidth      =   9765
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command4 
       Caption         =   "INVENTARIO"
       BeginProperty Font 
-         Name            =   "Verdana"
-         Size            =   9.75
+         Name            =   "Tahoma"
+         Size            =   12
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   255
-      Left            =   5280
+      Height          =   465
+      Left            =   6360
       TabIndex        =   15
-      Top             =   240
+      Top             =   6360
       Width           =   1575
    End
    Begin VB.CommandButton Command3 
       Caption         =   "AGREGAR"
       BeginProperty Font 
-         Name            =   "Verdana"
-         Size            =   9.75
+         Name            =   "Tahoma"
+         Size            =   12
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -41,40 +41,82 @@ Begin VB.Form ventas
          Strikethrough   =   0   'False
       EndProperty
       Height          =   375
-      Left            =   1560
+      Left            =   2880
       TabIndex        =   14
-      Top             =   1560
+      Top             =   2640
       Width           =   1575
    End
    Begin VB.TextBox Text2 
       Height          =   375
       Index           =   0
-      Left            =   1560
+      Left            =   2880
       TabIndex        =   9
-      Top             =   840
+      Top             =   1920
       Width           =   1575
    End
    Begin VB.CommandButton Command2 
       Caption         =   "CERRAR VENTA"
       BeginProperty Font 
-         Name            =   "Verdana"
-         Size            =   9.75
+         Name            =   "Tahoma"
+         Size            =   12
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   375
-      Left            =   3720
+      Height          =   495
+      Left            =   3480
       TabIndex        =   7
-      Top             =   4920
-      Width           =   1935
+      Top             =   6360
+      Width           =   2055
    End
    Begin VB.CommandButton Command1 
       Caption         =   "CANCELAR"
       BeginProperty Font 
-         Name            =   "Verdana"
+         Name            =   "Tahoma"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   495
+      Left            =   840
+      TabIndex        =   6
+      Top             =   6360
+      Width           =   2055
+   End
+   Begin VB.Frame Frame1 
+      Caption         =   "Registro"
+      Height          =   3615
+      Left            =   5160
+      TabIndex        =   5
+      Top             =   2400
+      Width           =   3735
+   End
+   Begin VB.TextBox Text2 
+      Enabled         =   0   'False
+      Height          =   375
+      Index           =   3
+      Left            =   2880
+      TabIndex        =   4
+      Top             =   4560
+      Width           =   1575
+   End
+   Begin VB.TextBox Text2 
+      Enabled         =   0   'False
+      Height          =   375
+      Index           =   2
+      Left            =   2880
+      TabIndex        =   3
+      Top             =   3360
+      Width           =   1575
+   End
+   Begin VB.TextBox Text1 
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
          Size            =   9.75
          Charset         =   0
          Weight          =   400
@@ -83,53 +125,20 @@ Begin VB.Form ventas
          Strikethrough   =   0   'False
       EndProperty
       Height          =   375
-      Left            =   1440
-      TabIndex        =   6
-      Top             =   4920
-      Width           =   1935
-   End
-   Begin VB.Frame Frame1 
-      Caption         =   "Registro"
-      Height          =   3375
-      Left            =   3360
-      TabIndex        =   5
-      Top             =   1320
-      Width           =   3495
-   End
-   Begin VB.TextBox Text2 
-      Enabled         =   0   'False
-      Height          =   375
-      Index           =   3
-      Left            =   1440
-      TabIndex        =   4
-      Top             =   4320
-      Width           =   1575
-   End
-   Begin VB.TextBox Text2 
-      Enabled         =   0   'False
-      Height          =   375
-      Index           =   2
-      Left            =   1440
-      TabIndex        =   3
-      Top             =   3600
-      Width           =   1575
-   End
-   Begin VB.TextBox Text1 
-      Height          =   375
-      Left            =   5040
+      Left            =   7320
       TabIndex        =   0
       Text            =   "20/09/2021"
-      Top             =   720
+      Top             =   1800
       Width           =   1575
    End
    Begin VB.Label Label1 
       Alignment       =   2  'Center
       BackColor       =   &H00FFC0C0&
       BackStyle       =   0  'Transparent
-      Caption         =   "FECHA"
+      Caption         =   "FECHA:"
       BeginProperty Font 
          Name            =   "Times New Roman"
-         Size            =   9.75
+         Size            =   15
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -137,21 +146,21 @@ Begin VB.Form ventas
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H00FFFFFF&
-      Height          =   255
+      Height          =   375
       Index           =   4
-      Left            =   4080
+      Left            =   5520
       TabIndex        =   13
-      Top             =   720
-      Width           =   855
+      Top             =   1800
+      Width           =   1215
    End
    Begin VB.Label Label1 
       Alignment       =   2  'Center
       BackColor       =   &H00FFC0C0&
       BackStyle       =   0  'Transparent
-      Caption         =   "TOTAL"
+      Caption         =   "TOTAL:"
       BeginProperty Font 
          Name            =   "Times New Roman"
-         Size            =   9.75
+         Size            =   15
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -161,19 +170,19 @@ Begin VB.Form ventas
       ForeColor       =   &H00FFFFFF&
       Height          =   375
       Index           =   3
-      Left            =   360
+      Left            =   480
       TabIndex        =   12
-      Top             =   4320
-      Width           =   855
+      Top             =   4560
+      Width           =   1455
    End
    Begin VB.Label Label1 
       Alignment       =   2  'Center
       BackColor       =   &H00FFC0C0&
       BackStyle       =   0  'Transparent
-      Caption         =   "SUBTOTAL"
+      Caption         =   "SUBTOTAL:"
       BeginProperty Font 
-         Name            =   "Tahoma"
-         Size            =   9.75
+         Name            =   "Times New Roman"
+         Size            =   15
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -183,19 +192,19 @@ Begin VB.Form ventas
       ForeColor       =   &H00FFFFFF&
       Height          =   375
       Index           =   2
-      Left            =   240
+      Left            =   360
       TabIndex        =   11
-      Top             =   3600
-      Width           =   975
+      Top             =   3360
+      Width           =   1935
    End
    Begin VB.Label Label1 
       Alignment       =   2  'Center
       BackColor       =   &H00FFC0C0&
       BackStyle       =   0  'Transparent
-      Caption         =   "PRODUCTO"
+      Caption         =   "PRODUCTO:"
       BeginProperty Font 
          Name            =   "Times New Roman"
-         Size            =   9.75
+         Size            =   15
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -205,18 +214,18 @@ Begin VB.Form ventas
       ForeColor       =   &H00FFFFFF&
       Height          =   375
       Index           =   1
-      Left            =   120
+      Left            =   360
       TabIndex        =   10
-      Top             =   840
-      Width           =   1215
+      Top             =   1800
+      Width           =   1815
    End
    Begin VB.Label Label2 
       Caption         =   "Label2"
       Height          =   15
       Index           =   1
-      Left            =   1320
+      Left            =   2760
       TabIndex        =   8
-      Top             =   840
+      Top             =   1920
       Width           =   135
    End
    Begin VB.Label Label3 
@@ -225,7 +234,7 @@ Begin VB.Form ventas
       Caption         =   "ABARROTES LA BRENDUKIS"
       BeginProperty Font 
          Name            =   "Yu Gothic"
-         Size            =   14.25
+         Size            =   27.75
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -233,19 +242,19 @@ Begin VB.Form ventas
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H00FFFFFF&
-      Height          =   375
-      Left            =   120
+      Height          =   615
+      Left            =   960
       TabIndex        =   2
-      Top             =   120
-      Width           =   5055
+      Top             =   480
+      Width           =   8175
    End
    Begin VB.Label Label2 
       Caption         =   "Label2"
       Height          =   15
       Index           =   0
-      Left            =   1320
+      Left            =   2760
       TabIndex        =   1
-      Top             =   1440
+      Top             =   2520
       Width           =   135
    End
 End
