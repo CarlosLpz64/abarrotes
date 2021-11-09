@@ -3,15 +3,14 @@ Begin VB.Form login
    BackColor       =   &H00C0C000&
    Caption         =   "login"
    ClientHeight    =   7410
-   ClientLeft      =   120
-   ClientTop       =   465
+   ClientLeft      =   3075
+   ClientTop       =   2385
    ClientWidth     =   9765
    Icon            =   "login.frx":0000
    LinkTopic       =   "Form1"
    Picture         =   "login.frx":10CA
    ScaleHeight     =   7410
    ScaleWidth      =   9765
-   StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command1 
       Caption         =   "Iniciar"
       BeginProperty Font 
@@ -140,9 +139,8 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command1_Click()
 ventas.Show
+agregar_categoria.Show
 Me.Hide
-End Sub
-
-Private Sub Label4_Click()
 
 End Sub
+
