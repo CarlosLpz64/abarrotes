@@ -250,3 +250,10 @@ Private Sub Text1_Change()
 
 End Sub
 
+Private Sub Combo1_Change()
+
+End Sub
+
+Private Sub Command1_Click()
+                      
+End Sub

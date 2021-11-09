@@ -263,7 +263,16 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Command2_Click()
+Me.Hide
+Cierre.Show
+End Sub
+
 Private Sub Command4_Click()
 Me.Hide
 inventario.Show
+End Sub
+
+Private Sub Text1_Change()
+
 End Sub
